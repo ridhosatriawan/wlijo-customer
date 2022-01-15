@@ -1,16 +1,274 @@
-html,
+@import "bulma/css/bulma.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  min-height: 100vh;
+  background-color: rgb(247, 247, 247);
+  font-family: "Roboto", sans-serif;
 }
 
-a {
-  color: inherit;
+/* navbar */
+
+.logo {
+  height: 60px;
+}
+
+nav.nav {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+nav.nav-pm1 {
+  margin: 10px 0;
+}
+
+div.nav-atas,
+nav.nav-atas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav.nav-bawah {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e7a1b;
+}
+
+a.nav1 {
+  color: #1e7a1b;
+  padding: 0 5px;
   text-decoration: none;
+  font-size: small;
 }
 
-* {
-  box-sizing: border-box;
+button.nav2,
+a.nav2 {
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+}
+
+.bs {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: rgb(0, 128, 0);
+  background: linear-gradient(180deg, rgba(0, 128, 0, 1) 0%, rgba(9, 182, 9, 1) 100%);
+}
+
+.btm-action {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* border */
+
+a.brg {
+  border-right: 1px solid #1e7a1b;
+}
+
+/* button */
+.button[disabled] {
+  background-color: gray;
+  border-color: #dbdbdb;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  opacity: 0.5;
+}
+
+button.btn-main {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+button.btn-main:hover {
+  color: green;
+}
+
+button.btn-second {
+  border: 1.5px solid green;
+  color: green;
+  border-radius: 10px;
+}
+
+button.btn-second:hover {
+  color: white;
+}
+
+.btn-card {
+  color: white;
+  background-color: green;
+  width: 100%;
+}
+
+.btn-card-secondary {
+  color: green;
+  border: 1.5px solid green;
+}
+
+.inc {
+  padding: 0 5px;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+.inc:not(:last-child) {
+  margin-right: 5px;
+}
+
+/* search */
+div.search-margin {
+  margin-right: 30px;
+}
+
+.search {
+  width: 300px;
+}
+
+div.search2 {
+  width: 400px;
+}
+
+input.in {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+}
+
+/* icon */
+
+.icon-margin {
+  margin-right: 20px;
+}
+
+.nav2 {
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+}
+
+/* padding margin */
+
+.wrap {
+  padding: 20px;
+}
+.wrapper-auth {
+  min-height: 100vh;
+}
+
+/* card */
+
+.card-container {
+  min-width: 200px;
+}
+.card-container:not(:last-child) {
+  margin-right: 10px;
+}
+
+.outer-card {
+  overflow-x: auto;
+  padding: 0 20px;
+}
+.outer-card-2 {
+  padding: 0 20px 100px 20px;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-image {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.card-container {
+  margin-bottom: 10px;
+}
+
+.testimoni {
+  width: 300px;
+}
+
+.image-ttl {
+  width: 100%;
+  background-color: rgba(0, 128, 0, 0.212);
+}
+
+.content figure.checkout {
+  margin: 0;
+}
+
+.content.checkout p:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.checkout:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.card.checkout .media:not(:last-child) {
+  margin-bottom: 0;
+}
+
+/* color */
+
+.green {
+  color: green;
+}
+.bg-green {
+  background-color: green;
+}
+.white {
+  color: white;
+}
+
+/* element */
+hr {
+  margin: 1rem 0 0.5rem 0;
+}
+
+/* breakpoint */
+
+@media screen and (min-width: 1024px) {
+  .outer-card {
+    padding: 0 100px;
+  }
+  .outer-card-2 {
+    padding: 0 100px 100px 100px;
+  }
+
+  .wrap {
+    padding: 0 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .media-content {
+    overflow-x: unset;
+  }
+
+  .card-container {
+    min-width: 150px;
+  }
+
+  .testimoni:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .testimoni {
+    min-width: 100%;
+  }
+
+  .card-store:not(:last-child) {
+    margin-right: 0px;
+  }
+
+  .outer-card {
+    justify-content: space-between;
+  }
 }

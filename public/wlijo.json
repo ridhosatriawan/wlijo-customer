@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "nama": "Pak Umar",
+        "lokasiTerkini": "Sobo",
+        "transaksi":200,
+        "rating":3
+    },
+    {
+        "id":2,
+        "nama": "Pak Malik",
+        "lokasiTerkini": "Pakis",
+        "transaksi":130,
+        "rating":4
+    },
+    {
+        "id":3,
+        "nama": "Pak Zaki",
+        "lokasiTerkini": "Klatak",
+        "transaksi":50,
+        "rating":3.5
+    },
+    {
+        "id":4,
+        "nama": "Bu Marokneng",
+        "lokasiTerkini": "Cungking",
+        "transaksi":322,
+        "rating":4.5
+    },
+    {
+        "id":5,
+        "nama": "Mas Lukman",
+        "lokasiTerkini": "Kabat",
+        "transaksi":20,
+        "rating":3.5
+    },
+    {
+        "id":6,
+        "nama": "Pak Hasyim",
+        "lokasiTerkini": "Tegalrejo",
+        "transaksi":135,
+        "rating":3
+    }
+]

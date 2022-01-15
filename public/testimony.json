@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "nama":"Ryan",
+        "role":"Pelanggan",
+        "testi":"Website ini Memudahka untuk belanja"
+    },
+    {
+        "id":2,
+        "nama":"Ahmad",
+        "role":"Pelanggan",
+        "testi":"Mudah Bisa Melihat wlijo disekitar rumah"
+    },
+    {
+        "id":1,
+        "nama":"Pak Amir",
+        "role":"Wlijo",
+        "testi":"Aplikasi ini Memudahkan saya untuk menjual"
+    }
+]

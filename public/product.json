@@ -1,0 +1,56 @@
+[
+    {
+        "id":1,
+        "namaToko":"Pak Umar",
+        "namaProduk":"Tomat",
+        "diskon": 5,
+        "harga":5000,
+        "stok":5,
+        "rating":5
+    },
+    {
+        "id":2,
+        "namaToko":"Pak Hasyim",
+        "namaProduk":"Pakcoy",
+        "diskon": 0,
+        "harga":2000,
+        "stok":7,
+        "rating":3
+    },
+    {
+        "id":3,
+        "namaToko":"Pak Malik",
+        "namaProduk":"Cabe",
+        "diskon": 10,
+        "harga":15000,
+        "stok":10,
+        "rating":4.5
+    },
+    {
+        "id":4,
+        "namaToko":"Bu Markoneng",
+        "namaProduk":"Daging Ayam",
+        "diskon": 10,
+        "harga":30000,
+        "stok":3,
+        "rating":4
+    },
+    {
+        "id":5,
+        "namaToko":"Pak Hasyim",
+        "namaProduk":"Kangkung",
+        "diskon": 0,
+        "harga":2000,
+        "stok":7,
+        "rating":3
+    },
+    {
+        "id":6,
+        "namaToko":"Pak Zaki",
+        "namaProduk":"Selada",
+        "diskon": 0,
+        "harga":6000,
+        "stok":9,
+        "rating":5
+    }
+]
