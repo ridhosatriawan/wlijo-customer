@@ -5,7 +5,6 @@ import styles from '../styles/Home.module.css'
 import wlijos from '../public/wlijo.json'
 import products from '../public/product.json'
 import testimonyes from '../public/testimony.json'
-import Article from '../components/article'
 import CardProduct from '../components/cardProduct'
 import CardTestimony from '../components/cardTestimony'
 import MainLayout from '../layouts/mainLayout'
@@ -20,6 +19,16 @@ export default function Home() {
       <MainLayout>
         {/* carousel */}
         <Carousel />
+        {/* search location*/}
+        <div className='wrap is-flex is-align-items-center is-flex-direction-column is-hidden-tablet'>
+          <p className='green is-size-5 has-text-weight-medium mb-2'>Lokasi</p>
+          <div className="select">
+            <select>
+              <option>Select dropdown</option>
+              <option>With options</option>
+            </select>
+          </div>
+        </div>
         {/* card Wlijo */}
         <div className="wrap py-4 is-flex is-justify-content-space-between is-align-items-center">
           <p className='green is-size-5 has-text-weight-medium'>Wlijo Terdekat</p>
@@ -34,9 +43,6 @@ export default function Home() {
 
         </div>
 
-        {/* article */}
-        <p className='py-4 green is-size-5 wrap has-text-weight-medium'>Artikel</p>
-        <Article />
 
         {/* card Produk */}
         <div className="wrap py-4 is-flex is-justify-content-space-between is-align-items-center">

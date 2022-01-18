@@ -1,4 +1,4 @@
-import NavbarToko from "../components/navbarToko";
+import NavbarTrans from "../components/navbarTrans";
 import { Rating } from "react-simple-star-rating";
 import CardProductStore from "../components/cardProductStore";
 import products from '../public/product.json'
@@ -11,7 +11,7 @@ export default function DetailToko() {
                 <title>Detail Toko</title>
             </Head>
             <div className="bs">
-                <NavbarToko />
+                <NavbarTrans title="Detail Toko" />
             </div>
             <div className="wrap py-5">
                 <div className="card">
@@ -50,6 +50,14 @@ export default function DetailToko() {
             </div>
 
             <p className='py-4 green is-size-5 wrap has-text-weight-medium'>Produk</p>
+            <div className="wrap pb-5">
+                <p className="control has-icons-left">
+                    <input className="input" type="text" placeholder="Cari Produk" />
+                    <span className="icon is-small is-left">
+                        <i className="fas fa-search"></i>
+                    </span>
+                </p>
+            </div>
             <div className=' pb-5 is-flex is-flex-wrap-wrap outer-card '>
                 {
                     products.map((product, index) => (

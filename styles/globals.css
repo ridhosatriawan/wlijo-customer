@@ -19,7 +19,7 @@ nav.nav {
 }
 
 nav.nav-pm1 {
-  margin: 10px 0;
+  padding: 10px 100px;
 }
 
 div.nav-atas,
@@ -120,7 +120,19 @@ button.btn-second:hover {
   margin-right: 5px;
 }
 
+button.btn-main:hover {
+  background-color: green;
+  color: white;
+}
+
+button.btn-second:hover {
+  border: 1.5px solid green;
+  color: green;
+}
 /* search */
+.select:not(.is-multiple):not(.is-loading)::after {
+  border-color: green;
+}
 div.search-margin {
   margin-right: 30px;
 }
@@ -137,19 +149,25 @@ input.in {
   padding: 10px;
   width: 100%;
   border: none;
-  border-radius: 10px;
+}
+.loc-select {
+  width: 100%;
+  border: none;
 }
 
+p.control.has-icons-left {
+  width: 200px;
+}
 /* icon */
-
-.icon-margin {
-  margin-right: 20px;
-}
 
 .nav2 {
   color: white;
   text-decoration: none;
   font-size: medium;
+}
+
+.icon2 {
+  font-size: 20px;
 }
 
 /* padding margin */
@@ -164,7 +182,7 @@ input.in {
 /* card */
 
 .card-container {
-  min-width: 200px;
+  min-width: 160px;
 }
 .card-container:not(:last-child) {
   margin-right: 10px;
@@ -216,6 +234,9 @@ input.in {
 }
 
 /* color */
+.red {
+  color: red;
+}
 
 .green {
   color: green;
@@ -225,6 +246,17 @@ input.in {
 }
 .white {
   color: white;
+}
+
+.tabs li.is-active a {
+  color: green;
+  border-bottom-color: green;
+}
+
+.tabs.is-boxed li.is-active a {
+  background-color: rgb(247, 247, 247);
+  border-color: #dbdbdb;
+  border-bottom-color: transparent !important;
 }
 
 /* element */
@@ -269,6 +301,6 @@ hr {
   }
 
   .outer-card {
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 }

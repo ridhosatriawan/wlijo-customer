@@ -20,25 +20,37 @@ export default function NavbarMain() {
                     </a>
                 </div>
                 <div className="pencarian nav-atas">
-                    <div className="search-margin">
+                    <div className="search-margin is-flex">
                         <div className="control has-icons-left search2">
                             <input className="input  in" type="text" placeholder="Cari Selada" />
                             <span className="icon is-small is-left">
                                 <i className="fas fa-search"></i>
                             </span>
                         </div>
+                        <div className="ml-2">
+                            <button className="button green">
+                                <span className="icon is-small is-left">
+                                    <i className="fas fa-search"></i>
+                                </span>
+                            </button>
+                        </div>
                     </div>
                     <div >
-                        <div className="control has-icons-left search">
-                            <input className="input  in" type="text" placeholder="Cari Selada" />
-                            <span className="icon is-small is-left">
+                        <div className="control search has-icons-left">
+                            <div className="select ">
+                                <select className=" loc-select green">
+                                    <option className="green">Select dropdown</option>
+                                    <option>With options</option>
+                                </select>
+                            </div>
+                            <div className="icon is-small is-left">
                                 <i className="fas fa-search-location"></i>
-                            </span>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className=" nav-atas">
-                    <div className="keranjang icon-margin">
+                    <div className="keranjang mr-4">
                         <div className="nav2 ">
                             <i className="fas fa-shopping-cart is-size-5 icon"></i>
                         </div>

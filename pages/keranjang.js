@@ -100,7 +100,7 @@ export default function keranjang() {
                     <p className="is-size-7-mobile has-text-weight-bold white">Rp. 100.000</p>
                 </div>
                 <button className="button btn-second is-size-7-mobile">
-                    Buat Pesanan
+                    Checkout
                 </button>
             </div>
         </div>
